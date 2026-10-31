@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SoundTheme Accessibility</string>
+    <string name="service_name">SoundTheme Accessibility</string>
+    <string name="service_description">Reproduz efeitos sonoros ao navegar pela interface.</string>
+</resources>

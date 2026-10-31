@@ -7,7 +7,7 @@ Starter Android nativo em Kotlin com Jetpack Compose, serviço de acessibilidade
 Abra esta pasta no Android Studio e sincronize o Gradle. Para compilar localmente:
 
 ```shell
-gradle :app:assembleDebug
+./gradlew :app:assembleDebug
 ```
 
 O APK será gerado em `app/build/outputs/apk/debug/app-debug.apk`. O workflow do GitHub Actions compila o mesmo APK em cada push e disponibiliza-o como artefato da execução.
@@ -18,9 +18,7 @@ Instale o APK, abra o app e toque em **Ativar serviço de acessibilidade**. Na t
 
 ## Pacotes de áudio
 
-Os 20 arquivos WAV em `app/src/main/res/raw/` são efeitos demonstrativos gerados para este starter. Para usar seus próprios sons, substitua-os mantendo os nomes:
-
-O app apresenta os temas como opções de seleção única e salva a escolha. Apenas o tema selecionado é usado pelo serviço durante a navegação; os outros não são reproduzidos em paralelo.
+Os 20 arquivos WAV em `app/src/main/res/raw/` são efeitos demonstrativos gerados para este starter. Para usar seus próprios sons, substitua-os mantendo os nomes. O app apresenta os temas como opções de seleção única e salva a escolha. Apenas o tema selecionado é usado pelo serviço durante a navegação; os outros não são reproduzidos em paralelo.
 
 | Tema | Prefixo |
 |---|---|
